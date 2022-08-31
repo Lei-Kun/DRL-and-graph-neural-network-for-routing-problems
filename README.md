@@ -4,7 +4,7 @@ Everyone is welcome to use our code and cite our paper.
 
 Kun LEI, Peng GUO, Yi WANG, et al. Solve routing problems with a residual edge-graph attention neural network[J]. Neurocomputing, 2022.
 
-In this paper, we have solved three types of routing problems, i.e., travel salesman proble (TSP), capacited vehicle routing problem (CVRP), and multi-depot capacited vehicle routing problem (MDCVRP). It's simply to extend our framework to solve other type of routing problem or Combinatorial optimization problem.
+In this paper, we have solved three types of routing problems, i.e., travel salesman proble (TSP), capacited vehicle routing problem (CVRP), and multi-depot capacited vehicle routing problem (MDCVRP). It's simply to extend our framework to solve other type of routing problem or Combinatorial optimization problem based on our code.
 
 If you have any questions, you can contact me with kunlei@my.swjtu.edu.cn
 # Introduction
