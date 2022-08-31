@@ -2,7 +2,6 @@
 This code is for the published paper 'Solve routing problems with a residual edge-graph attention neural network', link https://www.sciencedirect.com/science/article/pii/S092523122200978X .
 Everyone is welcome to use our code and cite our paper.
 
-Kun LEI, Peng GUO, Yi WANG, et al. Solve routing problems with a residual edge-graph attention neural network[J]. Neurocomputing, 2022.
 
 In this paper, we have solved three types of routing problems, i.e., travel salesman proble (TSP), capacited vehicle routing problem (CVRP), and multi-depot capacited vehicle routing problem (MDCVRP). It's simply to extend our framework to solve other type of routing problem or Combinatorial optimization problem based on our code.
 
@@ -26,6 +25,16 @@ In our framework, after the features (node coordinates for TSP) of a 2D graph ar
 
 # Deep reinforcement learning algorithms
 The entire network is optimized using either a proximal policy optimization algorithm (PPO) or an improved baseline REINFORCE algorithm.
+
+# Cite us
+{Kun Lei, Peng Guo, Yi Wang, Xiao Wu, Wenchao Zhao,
+Solve routing problems with a residual edge-graph attention neural network,
+Neurocomputing,
+Volume 508,
+2022,
+Pages 79-98,
+ISSN 0925-2312,
+https://doi.org/10.1016/j.neucom.2022.08.005.}
 
 
 
