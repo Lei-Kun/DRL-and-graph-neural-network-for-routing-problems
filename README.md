@@ -8,7 +8,7 @@ In this paper, we have solved three types of routing problems, i.e., travel sale
 
 If you have any questions, you can contact me with kunlei@my.swjtu.edu.cn
 
-# NEED
+# NEEDED
 You shoud prepare:
 torch              1.4.0;
 torch-geometric    1.5.0;
