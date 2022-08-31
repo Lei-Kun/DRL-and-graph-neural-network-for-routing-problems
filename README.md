@@ -7,6 +7,17 @@ Kun LEI, Peng GUO, Yi WANG, et al. Solve routing problems with a residual edge-g
 In this paper, we have solved three types of routing problems, i.e., travel salesman proble (TSP), capacited vehicle routing problem (CVRP), and multi-depot capacited vehicle routing problem (MDCVRP). It's simply to extend our framework to solve other type of routing problem or Combinatorial optimization problem based on our code.
 
 If you have any questions, you can contact me with kunlei@my.swjtu.edu.cn
+
+# NEED
+You shoud prepare:
+torch              1.4.0
+torch-geometric    1.5.0
+torch-cluster      1.5.2
+torch-scatter      2.0.3
+torch-sparse       0.6.0
+torch-spline-conv  1.2.0
+at least.
+
 # Introduction
 --Motivation: we exploit both the strong dicision-making power of reinforcement learning and the suprieor representative power of deep learning (e.g., CNN/GNN/Transformer) to solve the combinatorial optimization problems. Many combinatorial optimization problems, such as a TSP or a VRP, are based on a graph structure, which can be easily modeled by the existing graph embedding or network embedding technique. In such a technique, the graph information is embedded in a continuous node representation. The latest development of graph neural network (GNN) can be used in modeling a graph combinatorial problem due to its strong capabilities in information embedding and belief propagation of graph topology. This motivates us to adopt a GNN model to solve combinatorial optimization problems, particularly TSP and CVRP. In this paper, we use the GNN model to build an end-to-end deep reinforcement learning (DRL) framework.
 
