@@ -2,7 +2,7 @@
 This code is for the published paper 'Solve routing problems with a residual edge-graph attention neural network', link https://www.sciencedirect.com/science/article/pii/S092523122200978X .
 Everyone is welcome to use our code and cite our paper.
 
-Kun L E I, Peng G U O, Yi W, et al. Solve routing problems with a residual edge-graph attention neural network[J]. Neurocomputing, 2022.
+Kun LEI, Peng GUO, Yi WANG, et al. Solve routing problems with a residual edge-graph attention neural network[J]. Neurocomputing, 2022.
 
 If you have any questions, you can contact me with kunlei@my.swjtu.edu.cn
 # Introduction
