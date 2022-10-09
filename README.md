@@ -5,7 +5,7 @@ Everyone is welcome to use our code and cite our paper.
 
 In this paper, we have solved three types of routing problems, i.e., travel salesman proble (TSP), capacited vehicle routing problem (CVRP), and multi-depot capacited vehicle routing problem (MDCVRP). It's simply to extend our framework to solve other type of routing problem or Combinatorial optimization problem based on our code.
 
-If you have any questions, you can contact with me on kunlei@my.swjtu.edu.cn
+If you have any questions, please feel free to contact with me on kunlei@my.swjtu.edu.cn
 
 # NEEDED
 You shoud prepare:
