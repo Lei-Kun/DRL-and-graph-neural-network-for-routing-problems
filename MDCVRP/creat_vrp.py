@@ -148,8 +148,8 @@ def reward2(static, tour_indices,n_nodes,num_depotss):
 def reward1(static, tour_indices,n_nodes):
 
     static = static.reshape(-1,n_nodes,2)
-    print(static.shape)
-    static = torch.from_numpy(static).to('cuda')
+    #print(static.shape)
+    static = static.to('cuda')
     static = static.transpose(2,1)
 
     tour_indices_1 = deepcopy(tour_indices)

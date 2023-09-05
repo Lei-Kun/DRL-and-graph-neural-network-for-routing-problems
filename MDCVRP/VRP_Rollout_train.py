@@ -16,6 +16,7 @@ from rolloutBaseline1 import RolloutBaseline
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 #device = torch.device('cpu')
+num_depots=2
 n_nodes = 22#nodes = nodes + depots
 steps = n_nodes
 def rollout(model, dataset,batch_size, n_nodes):
@@ -91,7 +92,7 @@ def train():
             scheduler = LambdaLR(actor_optim, lr_lambda=lambda f: 0.96 ** epoch)
             for batch_idx, batch in enumerate(data_loder):
                 batch = batch.to(device)
-                tour_indices, tour_logp = actor(batch,steps*2)
+                tour_indices, tour_logp = actor(batch,steps*2,num_depots)
 
                 rewar = reward1(batch.x, tour_indices.detach(),n_nodes)
                 base_reward = rol_baseline.eval(batch,steps)

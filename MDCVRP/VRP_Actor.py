@@ -209,7 +209,7 @@ class Decoder1(nn.Module):
 
     def forward(self, encoder_inputs, pool,capcity,demand, n_steps,num_depots,T, greedy=False):
         num_depot = num_depots
-        print(num_depot)
+        #print(num_depot)
         mask1 = encoder_inputs.new_zeros((encoder_inputs.size(0), encoder_inputs.size(1)))
         mask = encoder_inputs.new_zeros((encoder_inputs.size(0), encoder_inputs.size(1)))
 
